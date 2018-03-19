@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Spoopy_Town.unity
+  isLoaded: 1
+  isActive: 1
