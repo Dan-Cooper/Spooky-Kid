@@ -1,13 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Game : MonoBehaviour
 {
 
 	public int score;
 
-	public int maxScore;
+	public int maxScore = 7;
 	// Use this for initialization
 	void Start () {
 		
@@ -19,7 +20,8 @@ public class Game : MonoBehaviour
 		if (score >= maxScore)
 		{
 			//end game
-			Application.Quit ();
+			SceneManager.LoadScene(0);
+			//Application.Quit ();
 		}
 	}
 }

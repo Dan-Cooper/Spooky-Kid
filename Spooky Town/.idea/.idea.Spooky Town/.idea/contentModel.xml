@@ -1,9 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="RiderRiderContentModelStore">
-    <excludedPaths>
-      <Path>Temp</Path>
-      <Path>Library</Path>
-    </excludedPaths>
+  <component name="ContentModelStore">
+    <e p="C:\Users\danny\.Rider2018.1\system\resharper-host\local\Transient\ReSharperHost\v12\SolutionCaches\_Spooky Town.1475062758.00" t="ExcludeRecursive" />
+    <e p="D:\Unity_Projects\Spooky-Kid\Spooky Town" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets\Scripts" t="Include">
+        <e p="AnimationTrigger.cs" t="Include" />
+        <e p="Button.cs" t="Include" />
+        <e p="Climb.cs" t="Include" />
+        <e p="Door.cs" t="Include" />
+        <e p="Game.cs" t="Include" />
+        <e p="Interact.cs" t="Include" />
+        <e p="MainMenu.cs" t="Include" />
+        <e p="MouseLook.cs" t="Include" />
+        <e p="Pickup.cs" t="Include" />
+        <e p="SimpleMover.cs" t="Include" />
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Spooky Town.sln" t="IncludeFlat" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
   </component>
 </project>

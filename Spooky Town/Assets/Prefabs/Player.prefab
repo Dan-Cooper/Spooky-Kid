@@ -496,7 +496,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1889434244313238}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.085, z: -0.76}
+  m_LocalPosition: {x: 0, y: 1.085, z: -0.647}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4628529179685860}
@@ -864,12 +864,12 @@ Camera:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_RenderingPath: -1
+  m_RenderingPath: 1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
   m_TargetEye: 3
-  m_HDR: 0
-  m_AllowMSAA: 0
+  m_HDR: 1
+  m_AllowMSAA: 1
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
@@ -993,9 +993,9 @@ Animator:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1307317551638150}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 9000000, guid: 3f097f5865d54574cb90eefe8bda3b89, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 36b3302d22c1ba64aae9a205b0d5f5cc, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1060,8 +1060,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   move: {fileID: 114112293930843998}
   player: {fileID: 1765108805132784}
-  distanceUp: 0
-  distanceForward: 0
+  distanceUp: 0.25
+  distanceForward: 0.15
 --- !u!114 &114807282317288100
 MonoBehaviour:
   m_ObjectHideFlags: 1
